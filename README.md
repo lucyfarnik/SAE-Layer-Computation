@@ -13,7 +13,7 @@ My high-level direction is basically taking a big black box like a transformer, 
 This project is the first baby step towards being able to do that kind of monitoring.
 It's also really neat because this basically completely generalizes to any neural net with residual connections (and generalizing to nets without residual connections should be pretty easy), so if AGI isn't a transformer, this research should hopefully still be equally useful.
 
-## Structure
+## Structure and credit
 The `sae_training` directory comes from [Joseph Bloom's excellent SAE training library](https://github.com/jbloomAus/mats_sae_training).
 
 `weights` contains the trained SAE artifacts. File names in this directory correspond to the hyperparameters of the SAE.
