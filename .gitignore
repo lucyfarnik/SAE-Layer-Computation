@@ -159,4 +159,11 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-weights/*
+artifacts
+checkpoints
+feature_dashboards_old
+wandb
+weights
+**/*.zip
+**/*.html
+**/*.pt

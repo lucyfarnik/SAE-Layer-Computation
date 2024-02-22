@@ -17,7 +17,7 @@ from torch.distributions.categorical import Categorical
 from tqdm import tqdm
 from transformer_lens.hook_points import HookedRootModule, HookPoint
 
-from sae_training.geom_median.src.geom_median.torch import compute_geometric_median
+from sae_training.geom_median.src.geom_median.torch.main import compute_geometric_median
 
 
 class SparseAutoencoder(HookedRootModule):
